@@ -1,4 +1,3 @@
-#include <iostream>
 #include <unordered_map>
 #include <vector>
 using std::vector;
@@ -12,9 +11,10 @@ public:
         unordered_map<int, int> curr;
         for (int i = 0; i < nums.size(); i++) {
             if (curr.find(target - nums[i]) != curr.end()) {
-                return vector < int > {curr[target - nums[i]], i};
+                return {curr[target - nums[i]], i};
             }
             curr[nums[i]] = i;
         }
+        return {-1, -1};
     }
 };
