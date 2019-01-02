@@ -7,8 +7,8 @@ public:
     string convert(string s, int numRows) {
         if (numRows == 1) return s;
         int keyNum = numRows * 2 - 2;
-        vector<string> retVec (numRows, "");
-        for (int i = 0; i < s.size(); i++){
+        vector<string> retVec(numRows, "");
+        for (int i = 0; i < s.size(); i++) {
             if (i % keyNum < numRows) retVec[i % keyNum] += s[i];
             else retVec[keyNum - i % keyNum] += s[i];
         }
