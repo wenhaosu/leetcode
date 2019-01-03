@@ -10,3 +10,4 @@ add_executable(Longest_Palindromic_Substring 005.Longest_Palindromic_Substring/t
 add_executable(ZigZag_Conversion 006.ZigZag_Conversion/test.cpp)
 add_executable(Reverse_Integer 007.Reverse_Integer/test.cpp)
 add_executable(String_to_Integer 008.String_to_Integer/test.cpp)
+add_executable(Palindrome_Number 009.Palindrome_Number/test.cpp)
