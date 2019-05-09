@@ -5,6 +5,15 @@ using namespace std;
 class Solution {
 public:
     vector<string> generateParenthesis(int n) {
+
+        /// Recursive Solution
+
+//        vector<string> solution;
+//        generate(solution, "", n, n);
+//        return solution;
+
+        /// DP Solution
+
         vector<vector<string>> dp(n + 1);
         dp[0] = {};
         for (int i = 1; i <= n; i++) {
@@ -28,4 +37,18 @@ public:
         }
         return dp[n];
     }
+
+    void generate(vector<string> &solution, const string &temp, int left, int right) {
+        if (left == 0 && right == 0) {
+            solution.push_back(temp);
+            return;
+        }
+        if (left > 0) {
+            generate(solution, temp + '(', left - 1, right);
+        }
+        if (left < right) {
+            generate(solution, temp + ')', left, right - 1);
+        }
+    }
+
 };
