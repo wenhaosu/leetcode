@@ -1,4 +1,4 @@
-# cmake_minimum_required(VERSION <specify CMake version here>)
+cmake_minimum_required(VERSION 3.10)
 project(leetcode)
 
 set(CMAKE_CXX_STANDARD 17)
@@ -20,6 +20,7 @@ add_executable(Longest_Common_Prefix 014.Longest_Common_Prefix/test.cpp)
 add_executable(3Sum 015.3Sum/test.cpp)
 add_executable(3Sum_Closest 016.3Sum_Closest/test.cpp)
 add_executable(Letter_Combinations_of_a_Phone_Number 017.Letter_Combinations_of_a_Phone_Number/test.cpp)
+add_executable(4Sum 018.4Sum/test.cpp)
 add_executable(Merge_Two_Sorted_Lists 021.Merge_Two_Sorted_Lists/test.cpp)
 add_executable(Generate_Parentheses 022.Generate_Parentheses/test.cpp)
 add_executable(First_Missing_Positive 041.First_Missing_Positive/test.cpp)
