@@ -55,6 +55,7 @@ add_executable(Largest_Number_At_Least_Twice_of_Others 747.Largest_Number_At_Lea
 add_executable(Largest_Sum_of_Averages 813.Largest_Sum_of_Averages/test.cpp)
 add_executable(Most_Common_Word 819.Most_Common_Word/test.cpp)
 add_executable(Keys_and_Rooms 841.Keys_and_Rooms/test.cpp)
+add_executable(Hand_of_Straights 846.Hand_of_Straights/test.cpp)
 add_executable(Score_of_Parentheses 856.Score_of_Parentheses/test.cpp)
 add_executable(Mirror_Reflection 858.Mirror_Reflection/test.cpp)
 add_executable(Binary_Gap 868.Binary_Gap/test.cpp)
