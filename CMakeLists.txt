@@ -53,6 +53,7 @@ add_executable(Minimum_Moves_to_Equal_Array_Elements 453.Minimum_Moves_to_Equal_
 add_executable(132_Pattern 456.132_Pattern/test.cpp)
 add_executable(Ones_and_Zeroes 474.Ones_and_Zeroes/test.cpp)
 add_executable(Next_Greater_Element_I 496.Next_Greater_Element_I/test.cpp)
+add_executable(Binary_Number_with_Alternating_Bits 693.Binary_Number_with_Alternating_Bits/test.cpp)
 add_executable(Largest_Number_At_Least_Twice_of_Others 747.Largest_Number_At_Least_Twice_of_Others/test.cpp)
 add_executable(Largest_Sum_of_Averages 813.Largest_Sum_of_Averages/test.cpp)
 add_executable(Most_Common_Word 819.Most_Common_Word/test.cpp)
