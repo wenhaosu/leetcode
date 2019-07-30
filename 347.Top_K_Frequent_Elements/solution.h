@@ -8,14 +8,14 @@ public:
 
         vector<vector<int>> buckets(nums.size() + 1);
         for (auto c : count) buckets[c.second].push_back(c.first);
+        reverse(begin(buckets), end(buckets));
 
         vector<int> ans;
-        for (int i = buckets.size() - 1; i >= 0 && ans.size() < k; --i) {
-            for (int num : buckets[i]) {
-                ans.push_back(num);
-                if (ans.size() == k) break;
+        for (auto &bucket: buckets)
+            for (auto i : bucket) {
+                ans.push_back(i);
+                if (ans.size() == k) return ans;
             }
-        }
         return ans;
     }
 };
