@@ -44,6 +44,7 @@ add_executable(Bitwise_AND_of_Numbers_Range 201.Bitwise_AND_of_Numbers_Range/tes
 add_executable(Remove_Linked_List_Elements 203.Remove_Linked_List_Elements/test.cpp)
 add_executable(Count_Complete_Tree_Nodes 222.Count_Complete_Tree_Nodes/test.cpp)
 add_executable(Super_Ugly_Number 313.Super_Ugly_Number/test.cpp)
+add_executable(Top_K_Frequent_Elements 347.Top_K_Frequent_Elements/test.cpp)
 add_executable(Find_the_Difference 389.Find_the_Difference/test.cpp)
 add_executable(Longest_Substring_with_At_Least_K_Repeating_Characters 395.Longest_Substring_with_At_Least_K_Repeating_Characters/test.cpp)
 add_executable(Evaluate_Division 399.Evaluate_Division/test.cpp)
